@@ -2,7 +2,8 @@
 
 Need to:
 
-```add virtialenv and activate
+```
+add virtialenv and activate
 
 pip install -r requirements.txt
 
@@ -26,7 +27,8 @@ Socket:
 connect two users to ws
 
 then you can send data from first user: 
-```{
+```
+{
     "action": "chat.send_message",
     "data": {
         "receiver_id": receiver_id,
